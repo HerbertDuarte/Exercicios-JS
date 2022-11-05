@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 01</title>
+  <style>
+    *{
+      margin: 15px 15px;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: lightslategray;
+      color: white;
+    }
+    h1{
+      text-align: center;
+    }
+    h2{
+      text-align: start;
+    }
+    ul{
+      list-style: none;
+    }
+    strong{
+      color: darkorange
+    }
+  </style>
+</head>
+<body> 
+  <h1>Tratamento de dados</h1>
+  <h2>Variaveis</h2>
+  <ul>tipos primitivos :
+    <li>1. Number</li>
+    <ul>
+      <li>1.1 Number.parseInt ou somente parseInt</li>
+      <li>1.2 Number.parseFloat ou somente parseFloat</li>
+    </ul>
+    <li>2. String</li>
+  </ul>
+  <h2>Artifícios</h2>
+  <ul>
+    <li><strong>window,alert()</strong> ---> exibe o que estiver dentro do parenteses numa janela de alerta</li>
+    <li><strong>window.prompt() </strong>---> pede ao usuario que digite algo</li>
+    <li><strong>document.write()</strong> ---> escreve no documento html o que estiver dentro dos parenteses</li>
+    <li><strong>`</strong>O texto é digitado aqui e em seguinda a sua <strong>${</strong>variável<strong>} `</strong> ---> modelo de texto com máscara de variável</li>
+
+    <h3>Manipulação de texto</h3>
+    <ul>
+    <li><strong>.length</strong> ---> descreve o numero de caracteres de uma string</li>
+    <li><strong>.toUpperCase()</strong> ---> transforma o texto em maiusculo</li>
+    <li><strong>.toLowerCase()</strong> ---> transforma o texto em minusculo</li>
+    </ul>
+
+    <h3>Manipulação de números</h3>
+    <ul>
+      <li><strong>.toFixed(2)</strong> ---> No exemplo limitaria um float para <strong>2</strong> casas decicais após o ponto</li>
+      <li><strong>.replace</strong>(<strong>'.'</strong>, <strong>','</strong>) ---> no exemplo troca , por .</li>
+      <li>.<strong>toLocaaleString('pt-BR', {style:'currency', currency:'BRL'})</strong> ---> transforma o numero para a moeda monetaria brasileira, o R$. Pode se ainda usar para dolar 'USD' e euro 'EUR'</li>
+      <li></li>
+    </ul>
+  </ul>
+  <h2>Simbolos</h2>
+  <ul>
+    <li><strong>!</strong> ---> negação (!true == falso // !false == verdadeiro)</li>
+    <li><strong>&&</strong> ---> significa 'e'</li>
+    <li><strong>||</strong> ---> significa 'ou'</li>
+  </ul>
+  <h2>Operadores ternários</h2>
+  
+</body>
+</html>

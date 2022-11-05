@@ -1,0 +1,1 @@
+Esse repositório é referente aos meus exercícios desenvolvidos durante o curso de JavaScript - ECMAScript.
