@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somando números</title>
+  <style>
+    h1{
+      font-size: 1.15em;
+    }
+    #caixa{
+      width: 90px;
+      margin-bottom: 6px;
+    }
+    .botoes > input{
+      background-color: black;
+      color: white;
+      width: 30px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #somar1{
+      display: inline-block;
+      background-color: black;
+      color: white;
+      width: 64px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #somar2{
+      display:none;
+      background-color: black;
+      color: white;
+      width: 64px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #igual{
+      background-color: black;
+      color: white;
+      width: 30px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #pontofalso{
+      display: none;
+    }
+    #ponto{
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <!-- <h1>Soma</h1>
+  <input type="number" name="num1" id="num1"> +
+  <input type="number" name="num2" id="num2">
+  <input type="button" value="Somar" onclick="somar()">
+  <p id="res">resultado</p> -->
+  
+  <h1>Calculadora</h1>
+  <input type="number" name="caixa" id="caixa">
+  <br>
+  <div class="botoes">
+    <input type="button" value="1" onclick="um()">
+    <input type="button" value="2" onclick="dois()">
+    <input type="button" value="3" onclick="tres()">
+    <br>
+    <input type="button" value="4" onclick="quatro()">
+    <input type="button" value="5" onclick="cinco()">
+    <input type="button" value="6" onclick="seis()">
+    <br>
+    <input type="button" value="7" onclick="sete()">
+    <input type="button" value="8" onclick="oito()">
+    <input type="button" value="9" onclick="nove()">
+    <br>
+    <input id="pontofalso" type="button" value=".">
+    <input id="ponto" type="button" value="." onclick="pontox()">
+    <input type="button" value="0" onclick="zero()">
+    <input type="button" value="c" onclick="cap()">
+  </div>
+  <input id="somar1" type="button" value="+" onclick="somar01()">
+  <input id="somar2" type="button" value="+" onclick="somar02()">
+  <input id="igual" type="button" value="=" onclick="igual()">
+  <br>
+  <input type="number" value="" name="text" id="text"><br>
+  <input type="number" value="" name="text2" id="text2"><br>
+  <input type="number" value="" name="text3" id="text3"><br>
+  <script src="app.js"></script>
+</body>
+</html>
