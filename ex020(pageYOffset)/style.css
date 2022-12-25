@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 300vh;
+  width: 100%;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  margin: 30px auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.b1{
+  background-color: blue;
+}
+.b2{
+  background-color: red;
+}
+.b3{
+  background-color: yellow;
+}
