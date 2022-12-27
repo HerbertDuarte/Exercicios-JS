@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Analisador de número</h1>
+
+    <section class="principal">
+
+        <div class="digite">
+            Digite um número de 0 a 100: <input type="number" name="numero" id="numero"> <input type="button" value="Adicionar" onclick="add()">
+        </div>
+
+        <div class="tabela">
+            <select name="seltab" id="seltab" size="10">
+                <option value="1">Digite um número acima</option>
+            </select>
+        </div>
+
+        <input type="button" value="Finalizar" onclick="finalizar()">
+
+        <div id="resultado"></div>
+
+    </section>
+
+    <footer>&copy; Curso em vídeo</footer>
+</body>
+</html>

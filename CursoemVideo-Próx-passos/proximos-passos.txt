@@ -1,0 +1,20 @@
+-Estudar :
+
+* Functions
+	arrow functions
+	callbacks
+	iife
+	JS funcional
+
+* Objetos
+	orientação a objetos
+
+* Modularização (separar códigos em módulos)
+
+* RegEX (expressões regulares)
+
+* JSON (estrutura de objetos / data save)
+
+* AJAX (progressive loading)
+
+* NODEJS (rodar scripts no servidor)
