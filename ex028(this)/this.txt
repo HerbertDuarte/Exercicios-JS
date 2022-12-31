@@ -1,0 +1,7 @@
+# INSTRUÇÃO THIS
+
+- Fora de escopos locais o this sempre se refere ao objeto global Window
+
+  * Se declaramos uma variavel ela é  declarada ao objeto window (tudo é objeto)
+
+- Em objetos o this se referir a instância(o próprio objeto) e pode acessar suas propriedades.
